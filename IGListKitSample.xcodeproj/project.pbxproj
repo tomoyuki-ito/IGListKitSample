@@ -10,11 +10,15 @@
 		35F7D3127583B8E82117B4F5 /* Pods_IGListKitSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EEF51F9228C6A3B80BED4C /* Pods_IGListKitSampleTests.framework */; };
 		5E6C23A50A02ED6C460BA257 /* Pods_IGListKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EB9E762514EA5A6556AB4F /* Pods_IGListKitSample.framework */; };
 		DC9D471F2085DC8F005D6633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D471E2085DC8F005D6633 /* AppDelegate.swift */; };
-		DC9D47212085DC8F005D6633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47202085DC8F005D6633 /* ViewController.swift */; };
-		DC9D47242085DC8F005D6633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47222085DC8F005D6633 /* Main.storyboard */; };
 		DC9D47262085DC95005D6633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47252085DC95005D6633 /* Assets.xcassets */; };
 		DC9D47292085DC95005D6633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47272085DC95005D6633 /* LaunchScreen.storyboard */; };
 		DC9D47342085DC95005D6633 /* IGListKitSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47332085DC95005D6633 /* IGListKitSampleTests.swift */; };
+		DC9D47402085E5C1005D6633 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D473F2085E5C1005D6633 /* SampleViewController.swift */; };
+		DC9D47422085E5F3005D6633 /* Sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47412085E5F3005D6633 /* Sample.storyboard */; };
+		DC9D47442085E79E005D6633 /* SampleListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47432085E79E005D6633 /* SampleListSectionController.swift */; };
+		DC9D47462085EAAF005D6633 /* SampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47452085EAAF005D6633 /* SampleObject.swift */; };
+		DC9D47482085EDF4005D6633 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47472085EDF4005D6633 /* SampleCollectionViewCell.swift */; };
+		DC9D474B2085F76C005D6633 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,18 @@
 		CBC5786039D6042A47EB5DE0 /* Pods-IGListKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSample/Pods-IGListKitSample.release.xcconfig"; sourceTree = "<group>"; };
 		DC9D471B2085DC8F005D6633 /* IGListKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D471E2085DC8F005D6633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9D47202085DC8F005D6633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC9D47232085DC8F005D6633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC9D47252085DC95005D6633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9D47282085DC95005D6633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9D472A2085DC95005D6633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC9D472F2085DC95005D6633 /* IGListKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D47332085DC95005D6633 /* IGListKitSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListKitSampleTests.swift; sourceTree = "<group>"; };
 		DC9D47352085DC95005D6633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9D473F2085E5C1005D6633 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		DC9D47412085E5F3005D6633 /* Sample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample.storyboard; sourceTree = "<group>"; };
+		DC9D47432085E79E005D6633 /* SampleListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListSectionController.swift; sourceTree = "<group>"; };
+		DC9D47452085EAAF005D6633 /* SampleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleObject.swift; sourceTree = "<group>"; };
+		DC9D47472085EDF4005D6633 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +108,9 @@
 		DC9D471D2085DC8F005D6633 /* IGListKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				DC9D47492085F756005D6633 /* Extension */,
+				DC9D473E2085E592005D6633 /* Sample */,
 				DC9D471E2085DC8F005D6633 /* AppDelegate.swift */,
-				DC9D47202085DC8F005D6633 /* ViewController.swift */,
-				DC9D47222085DC8F005D6633 /* Main.storyboard */,
 				DC9D47252085DC95005D6633 /* Assets.xcassets */,
 				DC9D47272085DC95005D6633 /* LaunchScreen.storyboard */,
 				DC9D472A2085DC95005D6633 /* Info.plist */,
@@ -117,6 +125,26 @@
 				DC9D47352085DC95005D6633 /* Info.plist */,
 			);
 			path = IGListKitSampleTests;
+			sourceTree = "<group>";
+		};
+		DC9D473E2085E592005D6633 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D47412085E5F3005D6633 /* Sample.storyboard */,
+				DC9D473F2085E5C1005D6633 /* SampleViewController.swift */,
+				DC9D47432085E79E005D6633 /* SampleListSectionController.swift */,
+				DC9D47472085EDF4005D6633 /* SampleCollectionViewCell.swift */,
+				DC9D47452085EAAF005D6633 /* SampleObject.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		DC9D47492085F756005D6633 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F9D7C52F65389C24869456A0 /* Frameworks */ = {
@@ -214,7 +242,7 @@
 			files = (
 				DC9D47292085DC95005D6633 /* LaunchScreen.storyboard in Resources */,
 				DC9D47262085DC95005D6633 /* Assets.xcassets in Resources */,
-				DC9D47242085DC8F005D6633 /* Main.storyboard in Resources */,
+				DC9D47422085E5F3005D6633 /* Sample.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9D47212085DC8F005D6633 /* ViewController.swift in Sources */,
+				DC9D474B2085F76C005D6633 /* UIColor+Hex.swift in Sources */,
+				DC9D47442085E79E005D6633 /* SampleListSectionController.swift in Sources */,
 				DC9D471F2085DC8F005D6633 /* AppDelegate.swift in Sources */,
+				DC9D47402085E5C1005D6633 /* SampleViewController.swift in Sources */,
+				DC9D47482085EDF4005D6633 /* SampleCollectionViewCell.swift in Sources */,
+				DC9D47462085EAAF005D6633 /* SampleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC9D47222085DC8F005D6633 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC9D47232085DC8F005D6633 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC9D47272085DC95005D6633 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -453,7 +477,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -468,7 +495,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -484,7 +514,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -501,7 +535,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
