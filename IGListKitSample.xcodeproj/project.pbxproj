@@ -19,6 +19,14 @@
 		DC9D47462085EAAF005D6633 /* SampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47452085EAAF005D6633 /* SampleObject.swift */; };
 		DC9D47482085EDF4005D6633 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47472085EDF4005D6633 /* SampleCollectionViewCell.swift */; };
 		DC9D474B2085F76C005D6633 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */; };
+		DC9D47572085FDAC005D6633 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D474E2085FDAC005D6633 /* FirstCollectionViewCell.swift */; };
+		DC9D47582085FDAC005D6633 /* FirstListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D474F2085FDAC005D6633 /* FirstListSectionController.swift */; };
+		DC9D47592085FDAC005D6633 /* FirstObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47502085FDAC005D6633 /* FirstObject.swift */; };
+		DC9D475A2085FDAC005D6633 /* Multiple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47512085FDAC005D6633 /* Multiple.storyboard */; };
+		DC9D475B2085FDAC005D6633 /* MultipleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47522085FDAC005D6633 /* MultipleViewController.swift */; };
+		DC9D475C2085FDAC005D6633 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47542085FDAC005D6633 /* SecondCollectionViewCell.swift */; };
+		DC9D475D2085FDAC005D6633 /* SecondListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47552085FDAC005D6633 /* SecondListSectionController.swift */; };
+		DC9D475E2085FDAC005D6633 /* SecondObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47562085FDAC005D6633 /* SecondObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,14 @@
 		DC9D47452085EAAF005D6633 /* SampleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleObject.swift; sourceTree = "<group>"; };
 		DC9D47472085EDF4005D6633 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		DC9D474E2085FDAC005D6633 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC9D474F2085FDAC005D6633 /* FirstListSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstListSectionController.swift; sourceTree = "<group>"; };
+		DC9D47502085FDAC005D6633 /* FirstObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstObject.swift; sourceTree = "<group>"; };
+		DC9D47512085FDAC005D6633 /* Multiple.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Multiple.storyboard; sourceTree = "<group>"; };
+		DC9D47522085FDAC005D6633 /* MultipleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleViewController.swift; sourceTree = "<group>"; };
+		DC9D47542085FDAC005D6633 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC9D47552085FDAC005D6633 /* SecondListSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondListSectionController.swift; sourceTree = "<group>"; };
+		DC9D47562085FDAC005D6633 /* SecondObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondObject.swift; sourceTree = "<group>"; };
 		E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +126,7 @@
 			children = (
 				DC9D47492085F756005D6633 /* Extension */,
 				DC9D473E2085E592005D6633 /* Sample */,
+				DC9D474C2085FDAC005D6633 /* Multiple */,
 				DC9D471E2085DC8F005D6633 /* AppDelegate.swift */,
 				DC9D47252085DC95005D6633 /* Assets.xcassets */,
 				DC9D47272085DC95005D6633 /* LaunchScreen.storyboard */,
@@ -145,6 +162,37 @@
 				DC9D474A2085F76C005D6633 /* UIColor+Hex.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DC9D474C2085FDAC005D6633 /* Multiple */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D47512085FDAC005D6633 /* Multiple.storyboard */,
+				DC9D47522085FDAC005D6633 /* MultipleViewController.swift */,
+				DC9D474D2085FDAC005D6633 /* First */,
+				DC9D47532085FDAC005D6633 /* Second */,
+			);
+			path = Multiple;
+			sourceTree = "<group>";
+		};
+		DC9D474D2085FDAC005D6633 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D474E2085FDAC005D6633 /* FirstCollectionViewCell.swift */,
+				DC9D474F2085FDAC005D6633 /* FirstListSectionController.swift */,
+				DC9D47502085FDAC005D6633 /* FirstObject.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		DC9D47532085FDAC005D6633 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D47542085FDAC005D6633 /* SecondCollectionViewCell.swift */,
+				DC9D47552085FDAC005D6633 /* SecondListSectionController.swift */,
+				DC9D47562085FDAC005D6633 /* SecondObject.swift */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 		F9D7C52F65389C24869456A0 /* Frameworks */ = {
@@ -242,6 +290,7 @@
 			files = (
 				DC9D47292085DC95005D6633 /* LaunchScreen.storyboard in Resources */,
 				DC9D47262085DC95005D6633 /* Assets.xcassets in Resources */,
+				DC9D475A2085FDAC005D6633 /* Multiple.storyboard in Resources */,
 				DC9D47422085E5F3005D6633 /* Sample.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,11 +366,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9D47582085FDAC005D6633 /* FirstListSectionController.swift in Sources */,
+				DC9D475C2085FDAC005D6633 /* SecondCollectionViewCell.swift in Sources */,
+				DC9D47572085FDAC005D6633 /* FirstCollectionViewCell.swift in Sources */,
+				DC9D475D2085FDAC005D6633 /* SecondListSectionController.swift in Sources */,
 				DC9D474B2085F76C005D6633 /* UIColor+Hex.swift in Sources */,
 				DC9D47442085E79E005D6633 /* SampleListSectionController.swift in Sources */,
 				DC9D471F2085DC8F005D6633 /* AppDelegate.swift in Sources */,
+				DC9D47592085FDAC005D6633 /* FirstObject.swift in Sources */,
+				DC9D475B2085FDAC005D6633 /* MultipleViewController.swift in Sources */,
 				DC9D47402085E5C1005D6633 /* SampleViewController.swift in Sources */,
 				DC9D47482085EDF4005D6633 /* SampleCollectionViewCell.swift in Sources */,
+				DC9D475E2085FDAC005D6633 /* SecondObject.swift in Sources */,
 				DC9D47462085EAAF005D6633 /* SampleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
