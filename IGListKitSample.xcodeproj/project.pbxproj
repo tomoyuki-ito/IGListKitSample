@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F7D3127583B8E82117B4F5 /* Pods_IGListKitSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EEF51F9228C6A3B80BED4C /* Pods_IGListKitSampleTests.framework */; };
+		5E6C23A50A02ED6C460BA257 /* Pods_IGListKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EB9E762514EA5A6556AB4F /* Pods_IGListKitSample.framework */; };
 		DC9D471F2085DC8F005D6633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D471E2085DC8F005D6633 /* AppDelegate.swift */; };
 		DC9D47212085DC8F005D6633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D47202085DC8F005D6633 /* ViewController.swift */; };
 		DC9D47242085DC8F005D6633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D47222085DC8F005D6633 /* Main.storyboard */; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153144160067C99C9262D0EC /* Pods-IGListKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSample/Pods-IGListKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		15EB9E762514EA5A6556AB4F /* Pods_IGListKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EEF51F9228C6A3B80BED4C /* Pods_IGListKitSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC5786039D6042A47EB5DE0 /* Pods-IGListKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSample/Pods-IGListKitSample.release.xcconfig"; sourceTree = "<group>"; };
 		DC9D471B2085DC8F005D6633 /* IGListKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D471E2085DC8F005D6633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9D47202085DC8F005D6633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		DC9D472F2085DC95005D6633 /* IGListKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D47332085DC95005D6633 /* IGListKitSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListKitSampleTests.swift; sourceTree = "<group>"; };
 		DC9D47352085DC95005D6633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6C23A50A02ED6C460BA257 /* Pods_IGListKitSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F7D3127583B8E82117B4F5 /* Pods_IGListKitSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		942500EEB28CBAC327CADF9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153144160067C99C9262D0EC /* Pods-IGListKitSample.debug.xcconfig */,
+				CBC5786039D6042A47EB5DE0 /* Pods-IGListKitSample.release.xcconfig */,
+				ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */,
+				E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC9D47122085DC8F005D6633 = {
 			isa = PBXGroup;
 			children = (
 				DC9D471D2085DC8F005D6633 /* IGListKitSample */,
 				DC9D47322085DC95005D6633 /* IGListKitSampleTests */,
 				DC9D471C2085DC8F005D6633 /* Products */,
+				942500EEB28CBAC327CADF9A /* Pods */,
+				F9D7C52F65389C24869456A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = IGListKitSampleTests;
 			sourceTree = "<group>";
 		};
+		F9D7C52F65389C24869456A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15EB9E762514EA5A6556AB4F /* Pods_IGListKitSample.framework */,
+				B9EEF51F9228C6A3B80BED4C /* Pods_IGListKitSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9D47382085DC95005D6633 /* Build configuration list for PBXNativeTarget "IGListKitSample" */;
 			buildPhases = (
+				D0933EAE2BAFEE7306574E3B /* [CP] Check Pods Manifest.lock */,
 				DC9D47172085DC8F005D6633 /* Sources */,
 				DC9D47182085DC8F005D6633 /* Frameworks */,
 				DC9D47192085DC8F005D6633 /* Resources */,
+				CBC84FE61F705C63ADA86F08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9D473B2085DC95005D6633 /* Build configuration list for PBXNativeTarget "IGListKitSampleTests" */;
 			buildPhases = (
+				A59C65592C780A199308E94C /* [CP] Check Pods Manifest.lock */,
 				DC9D472B2085DC95005D6633 /* Sources */,
 				DC9D472C2085DC95005D6633 /* Frameworks */,
 				DC9D472D2085DC95005D6633 /* Resources */,
@@ -191,6 +226,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A59C65592C780A199308E94C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListKitSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC84FE61F705C63ADA86F08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitSample/Pods-IGListKitSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitSample/Pods-IGListKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0933EAE2BAFEE7306574E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC9D47172085DC8F005D6633 /* Sources */ = {
@@ -356,14 +448,12 @@
 		};
 		DC9D47392085DC95005D6633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153144160067C99C9262D0EC /* Pods-IGListKitSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -373,14 +463,12 @@
 		};
 		DC9D473A2085DC95005D6633 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC5786039D6042A47EB5DE0 /* Pods-IGListKitSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -390,16 +478,13 @@
 		};
 		DC9D473C2085DC95005D6633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -410,16 +495,13 @@
 		};
 		DC9D473D2085DC95005D6633 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IGListKitSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coroco3.IGListKitSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
