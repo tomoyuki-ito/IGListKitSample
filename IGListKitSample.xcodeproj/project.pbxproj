@@ -34,6 +34,13 @@
 		DC9D4769208740BD005D6633 /* NestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D4764208740BD005D6633 /* NestViewController.swift */; };
 		DC9D476B20874260005D6633 /* NestCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D476A20874260005D6633 /* NestCollection.swift */; };
 		DC9D476D2087481E005D6633 /* NestCollectionViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D476C2087481E005D6633 /* NestCollectionViewSectionHeader.swift */; };
+		DC9D477620883138005D6633 /* Square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9D476F20883138005D6633 /* Square.storyboard */; };
+		DC9D477720883138005D6633 /* SquareCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477020883138005D6633 /* SquareCollection.swift */; };
+		DC9D477820883138005D6633 /* SquareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477120883138005D6633 /* SquareCollectionViewCell.swift */; };
+		DC9D477920883138005D6633 /* SquareCollectionViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477220883138005D6633 /* SquareCollectionViewSectionHeader.swift */; };
+		DC9D477A20883138005D6633 /* SquareListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477320883138005D6633 /* SquareListSectionController.swift */; };
+		DC9D477B20883138005D6633 /* SquareObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477420883138005D6633 /* SquareObject.swift */; };
+		DC9D477C20883138005D6633 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D477520883138005D6633 /* SquareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,13 @@
 		DC9D4764208740BD005D6633 /* NestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestViewController.swift; sourceTree = "<group>"; };
 		DC9D476A20874260005D6633 /* NestCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestCollection.swift; sourceTree = "<group>"; };
 		DC9D476C2087481E005D6633 /* NestCollectionViewSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestCollectionViewSectionHeader.swift; sourceTree = "<group>"; };
+		DC9D476F20883138005D6633 /* Square.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Square.storyboard; sourceTree = "<group>"; };
+		DC9D477020883138005D6633 /* SquareCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareCollection.swift; sourceTree = "<group>"; };
+		DC9D477120883138005D6633 /* SquareCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC9D477220883138005D6633 /* SquareCollectionViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareCollectionViewSectionHeader.swift; sourceTree = "<group>"; };
+		DC9D477320883138005D6633 /* SquareListSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareListSectionController.swift; sourceTree = "<group>"; };
+		DC9D477420883138005D6633 /* SquareObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareObject.swift; sourceTree = "<group>"; };
+		DC9D477520883138005D6633 /* SquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareViewController.swift; sourceTree = "<group>"; };
 		E0FDB9BBAD2EB67C89DAE63B /* Pods-IGListKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED24984A36D6D2996B2B7B91 /* Pods-IGListKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSampleTests/Pods-IGListKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +156,7 @@
 				DC9D473E2085E592005D6633 /* Sample */,
 				DC9D474C2085FDAC005D6633 /* Multiple */,
 				DC9D475F208740BD005D6633 /* Nest */,
+				DC9D476E20883138005D6633 /* Square */,
 				DC9D471E2085DC8F005D6633 /* AppDelegate.swift */,
 				DC9D47252085DC95005D6633 /* Assets.xcassets */,
 				DC9D47272085DC95005D6633 /* LaunchScreen.storyboard */,
@@ -222,6 +237,20 @@
 				DC9D4763208740BD005D6633 /* NestObject.swift */,
 			);
 			path = Nest;
+			sourceTree = "<group>";
+		};
+		DC9D476E20883138005D6633 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D476F20883138005D6633 /* Square.storyboard */,
+				DC9D477020883138005D6633 /* SquareCollection.swift */,
+				DC9D477120883138005D6633 /* SquareCollectionViewCell.swift */,
+				DC9D477220883138005D6633 /* SquareCollectionViewSectionHeader.swift */,
+				DC9D477320883138005D6633 /* SquareListSectionController.swift */,
+				DC9D477420883138005D6633 /* SquareObject.swift */,
+				DC9D477520883138005D6633 /* SquareViewController.swift */,
+			);
+			path = Square;
 			sourceTree = "<group>";
 		};
 		F9D7C52F65389C24869456A0 /* Frameworks */ = {
@@ -318,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9D47292085DC95005D6633 /* LaunchScreen.storyboard in Resources */,
+				DC9D477620883138005D6633 /* Square.storyboard in Resources */,
 				DC9D47262085DC95005D6633 /* Assets.xcassets in Resources */,
 				DC9D475A2085FDAC005D6633 /* Multiple.storyboard in Resources */,
 				DC9D47422085E5F3005D6633 /* Sample.storyboard in Resources */,
@@ -399,15 +429,21 @@
 				DC9D47582085FDAC005D6633 /* FirstListSectionController.swift in Sources */,
 				DC9D4767208740BD005D6633 /* NestListSectionController.swift in Sources */,
 				DC9D475C2085FDAC005D6633 /* SecondCollectionViewCell.swift in Sources */,
+				DC9D477C20883138005D6633 /* SquareViewController.swift in Sources */,
+				DC9D477820883138005D6633 /* SquareCollectionViewCell.swift in Sources */,
 				DC9D47572085FDAC005D6633 /* FirstCollectionViewCell.swift in Sources */,
+				DC9D477B20883138005D6633 /* SquareObject.swift in Sources */,
 				DC9D475D2085FDAC005D6633 /* SecondListSectionController.swift in Sources */,
 				DC9D4769208740BD005D6633 /* NestViewController.swift in Sources */,
+				DC9D477720883138005D6633 /* SquareCollection.swift in Sources */,
 				DC9D4766208740BD005D6633 /* NestCollectionViewCell.swift in Sources */,
 				DC9D474B2085F76C005D6633 /* UIColor+Hex.swift in Sources */,
 				DC9D47442085E79E005D6633 /* SampleListSectionController.swift in Sources */,
 				DC9D476D2087481E005D6633 /* NestCollectionViewSectionHeader.swift in Sources */,
+				DC9D477A20883138005D6633 /* SquareListSectionController.swift in Sources */,
 				DC9D471F2085DC8F005D6633 /* AppDelegate.swift in Sources */,
 				DC9D47592085FDAC005D6633 /* FirstObject.swift in Sources */,
+				DC9D477920883138005D6633 /* SquareCollectionViewSectionHeader.swift in Sources */,
 				DC9D476B20874260005D6633 /* NestCollection.swift in Sources */,
 				DC9D475B2085FDAC005D6633 /* MultipleViewController.swift in Sources */,
 				DC9D47402085E5C1005D6633 /* SampleViewController.swift in Sources */,
