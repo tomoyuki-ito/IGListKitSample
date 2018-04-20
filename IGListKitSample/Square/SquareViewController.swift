@@ -28,6 +28,18 @@ class SquareViewController: UIViewController {
 
         adapter.collectionView = collectionView
         (collectionView.collectionViewLayout as? UICollectionViewFlowLayout)?.sectionHeadersPinToVisibleBounds = true
+        
+        // screenshot & capture observing test
+        NotificationCenter.default.addObserver(forName: .UIApplicationUserDidTakeScreenshot, object: nil, queue: nil, using: { _ in
+            print("did take screenshot")
+        })
+        NotificationCenter.default.addObserver(forName: .UIScreenCapturedDidChange, object: nil, queue: nil, using: { _ in
+            if UIScreen.main.isCaptured {
+                print("did start screencapture")
+            } else {
+                print("did end screencapture")
+            }
+        })
     }
 
 }
